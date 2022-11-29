@@ -2,8 +2,6 @@ import aiohttp
 import anyio
 import re
 
-from datetime import datetime
-
 config = None # Your http(s) proxy. Unironically you need a proxy to parse a proxy webpage
 
 class parser:
